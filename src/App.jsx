@@ -16,7 +16,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/" element={<Navbar />} />
+          {/* <Route path="/" element={<Navbar />} /> */}
         </Routes>
       </Router>
     </div>
